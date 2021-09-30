@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.caja1, .caja2, .caja3 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.caja1 {
+    background: red;
+}
+
+.caja2 {
+    background: blue;
+}
+
+.caja3 {
+    background: green;
+}
